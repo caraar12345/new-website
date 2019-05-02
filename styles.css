@@ -1,0 +1,61 @@
+* {
+  background-color: #D7FCFE;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.box .centredBox {
+  font-family: Space Mono;
+  vertical-align: center;
+  text-align: center;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 5px;
+}
+
+.social{
+  line-height: 0px;
+  font-weight: 10;
+}
+
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover.twitter {
+  color: rgb(42,163,239);
+}
+
+a:hover.linkedin {
+  color: #0077B5;
+}
+
+a:hover.github {
+  color: rgb(34,34,34);
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+img.round{
+  border-radius: 50px;
+  width:100px;
+  height:100px;
+  margin: 30px;
+}

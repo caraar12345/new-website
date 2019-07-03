@@ -57,6 +57,10 @@ a:hover.github {
   color: #6cc644;
 }
 
+a:hover.blog {
+    color: #727272;
+}
+
 /* selected link */
 a:active {
   color: blue;
